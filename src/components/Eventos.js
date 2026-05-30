@@ -16,6 +16,7 @@ function Eventos({ animal }) {
 
   useEffect(() => {
     cargarEventos();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [animal]);
 
   const cargarEventos = () => {
